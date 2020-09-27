@@ -271,5 +271,18 @@
 	"Publish_Status" : "DRAFT",
 	"Reference_Name" : "TRIB_gas_price",
 	"Short_Question" : "Why is the gas price so high?"
+},
+{
+	"Answer" : "Welcome to TRIB. The smart contract that works for you and I, 24h a day, 365 days a year. \r\rContribute has no governance and it is fully automated. It is here to generate wealth from capital. \rWebsite: https://tribtoken.com/\rOverview: medium.com/@kentosadim/contribute-in-a-nutshell-5ec5ecb9ace5\rHow To Participate: medium.com/@kentosadim/how-to-participate-in-the-gme-1a611b5a507e\rMore Info: medium.com/@defisatoshi2.0/introducing-a-new-paradigm-in-defi-the-pooled-interest-savings-token-171e02691ab9\rWhitepaper: https://ipfs.io/ipfs/QmbfkUp9JkEkC2adxtpp6BAxgpUZy89WZ5TzpmP7EQdbpP\rContract Data, Claimable Interest, Reverves, mUSD Locked Forever, Floor Price and More: https://etherscan.io/address/0x0ddfe92234b9dca2de799736bbba1d2f25cfc3b8#readContract\rFAQ: medium.com/@kentosadim/what-is-tribs-maximum-supply-fd70e8cf8799\rLive Examination / Informal Audit / Interview: https://www.youtube.com/channel/UCUEaBQ9Wfc36u2dPKdxgTOw\rGitHub: https://github.com/Contribute-Defi",
+	"FAQ_Number" : "0022",
+	"FAQ_askers" : [],
+	"FAQ_authors" : [ "Smathson" ],
+	"FAQ_flags" : [ "UNPUBLISHED" ],
+	"FAQ_tags" : [ "LINKS" ],
+	"Full_Question" : "List of major links to TRIB.",
+	"Private_Comment" : "",
+	"Publish_Status" : "DRAFT",
+	"Reference_Name" : "TRIB_links",
+	"Short_Question" : "List of TRIB-related links"
 }
 ]
