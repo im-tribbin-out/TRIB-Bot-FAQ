@@ -130,7 +130,7 @@
 	"Short_Question" : "Devs adding new features?"
 },
 {
-	"Answer" : "A formal audit is in-progress. Results are expected in mid-October 2020. Informal audits were done by ______ and _____. ",
+	"Answer" : "A formal audit is in-progress. Results are expected in mid-October 2020. Informal audits were done by ______ and _____. \r\rAn informal audit was done by an experienced coder in mid-September 2020. You can [view the audit][1] on youtube.\r\r[https://www.youtube.com/watch?v=XmVEaf9-iks][1]",
 	"FAQ_Number" : "0011",
 	"FAQ_askers" : [],
 	"FAQ_authors" : [ "Smathson" ],
