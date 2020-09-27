@@ -151,6 +151,6 @@
 	"Full_Question" : "How come the locked contributions are only $366,000?  If people have withdrawn 8 million shouldn't the locked contributions be $800,000??",
 	"Private_Comment" : "Needs further clarification",
 	"Publish_Status" : "DRAFT",
-	"Reference_Name" : "GME_numbers",
-	"Short_Question" : "Final GME statistics?"
+	"Reference_Name" : "Locked_contribs_dont_match",
+	"Short_Question" : "Locked contributions don't match withdrawals?"
 }
