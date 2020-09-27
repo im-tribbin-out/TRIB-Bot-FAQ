@@ -93,4 +93,16 @@
 	"Publish_Status" : "DRAFT",
 	"Reference_Name" : "Partnership_farming",
 	"Short_Question" : "Farming TRIB to increase trading volume."
+},
+{
+	"Answer" : "There was never a pre-sale for TRIB. The first batch of TRIB tokens was created exclusively during the GME (Genesis Minting Event). There were and are no TRIB set aside for developers or any other parties.",
+	"FAQ_Number" : "009",
+	"FAQ_authors" : [ "Smathson" ],
+	"FAQ_flags" : [ "UNPUBLISHED" ],
+	"FAQ_tags" : [ "PRESALE", "TOKENOMICS" ],
+	"Full_Question" : "Was there a pre-sale for TRIB?",
+	"Private_Comment" : "",
+	"Publish_Status" : "DRAFT",
+	"Reference_Name" : "Presale",
+	"Short_Question" : "Was there a pre-sale?"
 }
