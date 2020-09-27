@@ -158,7 +158,7 @@
 {
 	"Answer" : "p_f = m * (n_s + 9 * n_b) / 10\r\rif m = 0.000001 \rn_s = total trib supply (including burnt)\rn_b = total burned trib supply ",
 	"FAQ_Number" : "0014",
-	"FAQ_authors" : [ "Tom B @tb000000000", "Smathson" ],
+	"FAQ_authors" : [ "Tom B TG:@tb000000000", "Smathson" ],
 	"FAQ_flags" : [ "UNPUBLISHED", "NEEDS CLARIFICATION" ],
 	"FAQ_tags" : [ "PRICE FLOOR", "FORMULA" ],
 	"Full_Question" : "What is the formula for accurately calculating the current price floor?",
@@ -170,7 +170,7 @@
 {
 	"Answer" : "TRIB is built on the back of mStable. It receives the APY of their Save product. Save is designed to take stablecoin deposits (USDC, TUSD, USDT & Dai) and put them into Compound and AAVE to earn their interest rates, while providing depositors with mUSD. On top of that any fees for swapping or minting mUSD, are added to the Save pot. So in times when a lot of people are getting hold of mUSD you’ll also see the APY go up.\r\rSo for as long as there is borrowing demand on AAVE and Compound there will be mstable interest. And as mstable sees more or less swaps on their platform, the APY will also fluctuate.",
 	"FAQ_Number" : "0015",
-	"FAQ_authors" : [ "Paul @coopermx14", "Smathson" ],
+	"FAQ_authors" : [ "Paul TG:@coopermx14", "Smathson" ],
 	"FAQ_flags" : [ "UNPUBLISHED" ],
 	"FAQ_tags" : [ "INTEREST", "TOKENOMICS" ],
 	"Full_Question" : "How does TRIB generate interest income perpetually?",
