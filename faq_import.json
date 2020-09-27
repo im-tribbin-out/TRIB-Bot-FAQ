@@ -130,7 +130,7 @@
 	"Short_Question" : "Devs adding new features?"
 },
 {
-	"Answer" : "A formal audit from a professional auditing company is in-progress. Results are expected in mid-October 2020.\r\rAn informal audit was done by an experienced coder who goes by the YouTube handle \"The Platonic Trickster\" in mid-September 2020. You can [view the audit][1] on youtube.\r\r[https://www.youtube.com/watch?v=XmVEaf9-iks][1]",
+	"Answer" : "A formal audit from a professional auditing company is in-progress. Results are expected in mid-October 2020.\r\rAn informal audit was done by an experienced coder who goes by the YouTube handle \"The Platonic Trickster\" in mid-September 2020. You can [view the audit][1] on youtube.\r\r[1]https://www.youtube.com/watch?v=XmVEaf9-iks",
 	"FAQ_Number" : "0011",
 	"FAQ_askers" : [],
 	"FAQ_authors" : [ "Smathson" ],
@@ -182,7 +182,7 @@
 	"Short_Question" : "Formula to calc price floor?"
 },
 {
-	"Answer" : "TRIB is built on the back of mStable. It receives the APY of their Save product. Save is designed to take stablecoin deposits (USDC, TUSD, USDT & Dai) and put them into Compound and AAVE to earn their interest rates, while providing depositors with mUSD. On top of that any fees for swapping or minting mUSD, are added to the Save pot. So in times when a lot of people are getting hold of mUSD you’ll also see the APY go up.\r\rSo for as long as there is borrowing demand on AAVE and Compound there will be mstable interest. And as mstable sees more or less swaps on their platform, the APY will also fluctuate.\r\rSee also: [How is the mStable APY calculated?][1]\r\r[1]https://docs.mstable.org/mstable-assets/massets/native-interest-rate#how-is-the-24h-apy-calculated",
+	"Answer" : "TRIB is built on the back of mStable. It receives the APY of their Save product. Save is designed to take stablecoin deposits (USDC, TUSD, USDT & Dai) and put them into Compound and AAVE to earn their interest rates, while providing depositors with mUSD. On top of that any fees for swapping or minting mUSD, are added to the Save pot. So in times when a lot of people are getting hold of mUSD you’ll also see the APY go up.\r\rSo for as long as there is borrowing demand on AAVE and Compound there will be mstable interest. And as mstable sees more or less swaps on their platform, the APY will also fluctuate.\r\rSee also: [How is the mStable APY calculated?][1]\r\r[1]https://docs.mstable.org/mstable-assets/massets/native-interest-rate\r",
 	"FAQ_Number" : "0015",
 	"FAQ_askers" : [],
 	"FAQ_authors" : [ "Paul|TG:@coopermx14", "Smathson" ],
@@ -258,5 +258,18 @@
 	"Publish_Status" : "DRAFT",
 	"Reference_Name" : "4_stages_of_TRIB",
 	"Short_Question" : "What are the 4 stages of TRIB?"
+},
+{
+	"Answer" : "When TRIB was first launched Contribute it became apparent that a lot of the transactions were running out of gas. In order to avoid this problem   the default gas limit  was set to 1M Gwei even though the actual transaction only utilizes around 700K Gwei to go through. This is just a preventive measure. Any gas that does not get used is refunded to the user. So when you see the transaction price in your MetaMask, it is most likely you will be paying less than what it shows.",
+	"FAQ_Number" : "0021",
+	"FAQ_askers" : [ "NikJk|TG:@NikJK" ],
+	"FAQ_authors" : [ "Me|TG:(no TG address)" ],
+	"FAQ_flags" : [ "UNPUBLISHED" ],
+	"FAQ_tags" : [ "GAS", "TX COST" ],
+	"Full_Question" : "Why is the gas price for TRIB transactions so high?\r",
+	"Private_Comment" : "",
+	"Publish_Status" : "DRAFT",
+	"Reference_Name" : "TRIB_gas_price",
+	"Short_Question" : "Why is the gas price so high?"
 }
 ]
