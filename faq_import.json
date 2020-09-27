@@ -143,7 +143,7 @@
 	"Short_Question" : "Final GME statistics?"
 },
 {
-	"Answer" : "The withdrawals did not happen all at once (in a single TX). The way the TRIB bonding curve is calculated in relation to burning, TRIB burns the lower 10% of the curve. Meaning 10% of the ($) dollar amount is not the same as 10% of the quantity of TRIB tokens actually burned.",
+	"Answer" : "The withdrawals did not happen all at once (in a single TX). The way the TRIB bonding curve is calculated in relation to burning, TRIB burns the lower 10% of the curve. Meaning 10% of the ($) dollar amount is not the same as 10% of the quantity of TRIB tokens actually burned. \r\rAnother way of putting this: the TRIB contract burns the cheapest 10% of TRIB  (so usually a larger quantity of tokens), so it's not 10% of absolute value, because people don't sell all at once. The price of TRIB is moving down (or up) with each transaction and this affects what quantity of TRIB are burned in each transaction.",
 	"FAQ_Number" : "0013",
 	"FAQ_authors" : [ "Smathson" ],
 	"FAQ_flags" : [ "UNPUBLISHED", "NEEDS CLARIFICATION" ],
@@ -153,4 +153,16 @@
 	"Publish_Status" : "DRAFT",
 	"Reference_Name" : "Locked_contribs_dont_match",
 	"Short_Question" : "Locked contributions don't match withdrawals?"
+},
+{
+	"Answer" : "p_f = m * (n_s + 9 * n_b) / 10\r\rif m = 0.000001 \rn_s = total trib supply (including burnt)\rn_b = total burned trib supply ",
+	"FAQ_Number" : "0014",
+	"FAQ_authors" : [ "Tom B @tb000000000", "Smathson" ],
+	"FAQ_flags" : [ "UNPUBLISHED", "NEEDS CLARIFICATION" ],
+	"FAQ_tags" : [ "PRICE FLOOR", "FORMULA" ],
+	"Full_Question" : "What is the formula for accurately calculating the current price floor?",
+	"Private_Comment" : "Needs further clarification",
+	"Publish_Status" : "DRAFT",
+	"Reference_Name" : "Price_floor_formula",
+	"Short_Question" : "Formula to calc price floor?"
 }
