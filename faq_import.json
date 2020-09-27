@@ -129,4 +129,28 @@
 	"Publish_Status" : "DRAFT",
 	"Reference_Name" : "Formal audit",
 	"Short_Question" : "Devs adding new features?"
+},
+{
+	"Answer" : "At the end of the GME (Genesis Minting Event) on \rTRIB actual price: $4.53\rTRIB average price: $2.90\rTRIB tokens issued: \rValue in contract:\rPermanently locked interest-generating value:",
+	"FAQ_Number" : "0012",
+	"FAQ_authors" : [ "Smathson" ],
+	"FAQ_flags" : [ "UNPUBLISHED" ],
+	"FAQ_tags" : [ "GME" ],
+	"Full_Question" : "What were the final GME price, average price, token issuance, and TVL(total-value-locked) numbers?",
+	"Private_Comment" : "",
+	"Publish_Status" : "DRAFT",
+	"Reference_Name" : "GME_numbers",
+	"Short_Question" : "Final GME statistics?"
+},
+{
+	"Answer" : "The withdrawals did not happen all at once (in a single TX). The way the TRIB bonding curve is calculated in relation to burning, TRIB burns the lower 10% of the curve. Meaning 10% of the ($) dollar amount is not the same as 10% of the quantity of TRIB tokens actually burned.",
+	"FAQ_Number" : "0013",
+	"FAQ_authors" : [ "Smathson" ],
+	"FAQ_flags" : [ "UNPUBLISHED", "NEEDS CLARIFICATION" ],
+	"FAQ_tags" : [ "CONTRIBUTION", "LOCKED" ],
+	"Full_Question" : "How come the locked contributions are only $366,000?  If people have withdrawn 8 million shouldn't the locked contributions be $800,000??",
+	"Private_Comment" : "Needs further clarification",
+	"Publish_Status" : "DRAFT",
+	"Reference_Name" : "GME_numbers",
+	"Short_Question" : "Final GME statistics?"
 }
