@@ -165,4 +165,16 @@
 	"Publish_Status" : "DRAFT",
 	"Reference_Name" : "Price_floor_formula",
 	"Short_Question" : "Formula to calc price floor?"
+},
+{
+	"Answer" : "TRIB is built on the back of mStable. It receives the APY of their Save product. Save is designed to take stablecoin deposits (USDC, TUSD, USDT & Dai) and put them into Compound and AAVE to earn their interest rates, while providing depositors with mUSD. On top of that any fees for swapping or minting mUSD, are added to the Save pot. So in times when a lot of people are getting hold of mUSD you’ll also see the APY go up.\r\rSo for as long as there is borrowing demand on AAVE and Compound there will be mstable interest. And as mstable sees more or less swaps on their platform, the APY will also fluctuate.",
+	"FAQ_Number" : "0015",
+	"FAQ_authors" : [ "Paul @coopermx14", "Smathson" ],
+	"FAQ_flags" : [ "UNPUBLISHED" ],
+	"FAQ_tags" : [ "INTEREST", "TOKENOMICS" ],
+	"Full_Question" : "How does TRIB generate interest income perpetually?",
+	"Private_Comment" : "How does TRIB generate interest income?",
+	"Publish_Status" : "DRAFT",
+	"Reference_Name" : "How_generate_interest",
+	"Short_Question" : ""
 }
