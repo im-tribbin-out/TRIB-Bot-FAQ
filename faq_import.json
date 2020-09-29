@@ -195,10 +195,10 @@
 	"Short_Question" : "How does TRIB generate interest?"
 },
 {
-	"Answer" : "The contract owner has been set to the Ethereum \"dead\" (burn) public address, https://etherscan.io/address/0x000000000000000000000000000000000000dead. Nobody (in the world) has the private key to this address, so nobody can make further changes to (or withdrawals from) the TRIB contracts.\n",
+	"Answer" : "The contract owner has been set to the Ethereum \"dead\" (burn) public address:\nhttps://etherscan.io/address/0x000000000000000000000000000000000000dead. \nNobody (in the world) has the private key to this address, so nobody can make further changes to (or withdrawals from) the TRIB contracts.\n\nThe contract cannot be changed, everything is set in stone. Things can be built on top of Contribute, but Contribute itself cannot be changed.\nThe contract will continue function until Ethereum itself fails or is shut down. There is nothing that can change that short of ETH forking and removing TRIB from the chain. (A very unlikely event.)",
 	"FAQ_Number" : "0016",
-	"FAQ_SourceURLS" : [],
-	"FAQ_authors" : [ "Smathson", "Me|TG:(no TG address)" ],
+	"FAQ_SourceURLS" : [ "https://t.me/tribtoken/39707" ],
+	"FAQ_authors" : [ "Smathson" ],
 	"FAQ_flags" : [ "UNPUBLISHED" ],
 	"FAQ_tags" : [ "LOCKED" ],
 	"Full_Question" : "How do we know the locked TRIB contract address is locked forever and there isn't a spare set of \"keys\" for it ... is this somehow verifiable in the code?",
@@ -362,5 +362,44 @@
 	"Publish_Status" : "DRAFT",
 	"Reference_Name" : "wallet_wont_connect",
 	"Short_Question" : "Why won't Metamask connect to the website?"
+},
+{
+	"Answer" : "In theory it's possible. It needs a contract above it to do it all, from WBTC to mUSD using pools, and then engage with Trib's contract. If using a service like PayPal there would be additional API calls / hooks needed.",
+	"FAQ_Number" : "0029",
+	"FAQ_SourceURLS" : [ "https://t.me/tribtoken/39794" ],
+	"FAQ_authors" : [ "Smathson" ],
+	"FAQ_flags" : [ "UNPUBLISHED", "NEEDS CLARIFICATION", "UPDATE WEEKLY" ],
+	"FAQ_tags" : [ "BUY" ],
+	"Full_Question" : "Is there a way to automate buying TRIB, for example, sending BTC somewhere and getting TRIB back directly, or through conventional steps like Paypal --> BTC --> TRIB?",
+	"Private_Comment" : "Note, the \"UPDATE WEEKLY\" flag means this question should be reviewed weekly and updated if automated buying options get implemented.",
+	"Publish_Status" : "",
+	"Reference_Name" : "automate_TRIB_buying",
+	"Short_Question" : "Is there a way to automate TRIB purchases?"
+},
+{
+	"Answer" : "Locked funds can **never** leave the protocol.  They generates interest to be claimed for as long at the Ethereum blockchain is viable and liquid.  Deposited funds are generating interest too, but when people sell TRIB, those Deposited funds leave the contract.\n\nAnother way of putting it:\nDeposited funds = total mUSD in the contract at this moment.\nLocked funds = burned mUSD that can never leave the contract.",
+	"FAQ_Number" : "0030",
+	"FAQ_SourceURLS" : [ "https://t.me/tribtoken/39844" ],
+	"FAQ_authors" : [ "Smathson" ],
+	"FAQ_flags" : [ "UNPUBLISHED" ],
+	"FAQ_tags" : [ "TOKENOMICS" ],
+	"Full_Question" : " What is the difference between Total Deposited and Locked Contributions on the website?",
+	"Private_Comment" : "Note, the \"UPDATE WEEKLY\" flag means this question should be reviewed weekly and updated if automated buying options get implemented.",
+	"Publish_Status" : "",
+	"Reference_Name" : "total_deposited_vs_locked",
+	"Short_Question" : "What's the difference between Deposited and Locked contributions?"
+},
+{
+	"Answer" : "You can bridge the TRIB tokens themselves like any Ethereum ERC-20, for example through a service like TrustSwap, but the smart contract & protocol itself will remain on ETH.",
+	"FAQ_Number" : "0031",
+	"FAQ_SourceURLS" : [ "https://t.me/tribtoken/39704" ],
+	"FAQ_authors" : [ "Smathson" ],
+	"FAQ_flags" : [],
+	"FAQ_tags" : [ "MIGRATE" ],
+	"Full_Question" : "Will TRIB migrate to Polkadot or other chains in the future?",
+	"Private_Comment" : "",
+	"Publish_Status" : "DRAFT",
+	"Reference_Name" : "migrate_to_new_chains",
+	"Short_Question" : "Will TRIB migrate to Polkadot or other chains?"
 }
 ]
