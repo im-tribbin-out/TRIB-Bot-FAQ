@@ -390,16 +390,42 @@
 	"Short_Question" : "What's the difference between Deposited and Locked contributions?"
 },
 {
-	"Answer" : "You can bridge the TRIB tokens themselves like any Ethereum ERC-20, for example through a service like TrustSwap, but the smart contract & protocol itself will remain on ETH.",
+	"Answer" : "TRIB has no plans to migrate to future blockchains. You can bridge the TRIB tokens themselves like any Ethereum ERC-20, for example through a service like TrustSwap, but the smart contract & protocol itself will remain on Ethereum.",
 	"FAQ_Number" : "0031",
 	"FAQ_SourceURLS" : [ "https://t.me/tribtoken/39704" ],
 	"FAQ_authors" : [ "Smathson" ],
-	"FAQ_flags" : [],
+	"FAQ_flags" : [ "UNPUBLISHED" ],
 	"FAQ_tags" : [ "MIGRATE" ],
 	"Full_Question" : "Will TRIB migrate to Polkadot or other chains in the future?",
 	"Private_Comment" : "",
 	"Publish_Status" : "DRAFT",
 	"Reference_Name" : "migrate_to_new_chains",
 	"Short_Question" : "Will TRIB migrate to Polkadot or other chains?"
+},
+{
+	"Answer" : "Please see the TRIB source code at: https://github.com/Contribute-Defi\n\nNote: the live, deployed TRIB smart contracts on the Ethereum blockchain are locked forever, admin keys burned.",
+	"FAQ_Number" : "0032",
+	"FAQ_SourceURLS" : [ "https://t.me/tribtoken/39256" ],
+	"FAQ_authors" : [ "Smathson" ],
+	"FAQ_flags" : [ "UNPUBLISHED" ],
+	"FAQ_tags" : [ "CODE" ],
+	"Full_Question" : "Where's the source code for TRIB?",
+	"Private_Comment" : "",
+	"Publish_Status" : "DRAFT",
+	"Reference_Name" : "where_source_code",
+	"Short_Question" : "Where's the source code for TRIB?"
+},
+{
+	"Answer" : "If you really want to get involved and Contribute your time, talent, contact, you name it, Discord is the place to be:  https://discord.gg/vwQb66B\nThe Telegram channel is quite general and we have everything structured on Discord.\n\n----------------------\n\nDear TRIBe,\n\nWe would like to clarify and explain how ideas for Contribute will be treated, and how visibility around them will be increased moving forward.\n\nAs a community we want to foster ideas Contribute, and work collaboratively to implement them.\n\nBeing fully decentralised and permissionless, there is no formal team, so this will require some self-sufficiency.\n\nFirst up, if a new idea is proposed in TG or Discord and gains some traction, the proposer can follow this simple format in order to formalise the idea:\n\n1. Create a Summary: explain it like I’m 5.\n\n2. Work on an Abstract: how is the idea beneficial to TRIB holders? What is the idea trying to achieve and why? \n\n3. Motivation: where did the idea come from? Any data behind it? Links to examples or anything to draw further interest and validity to your idea?\n\n4. Specs: what expertise in terms of human and financial capital would be required?\n\n5. Edge: what's the edge? Why is this idea good for contribute's ecosystem and TRIB holders?\n\nOnce an idea is ready in the above format, you can send it to any of the community members acting as ‘Admins’. \n\nIt will then be posted in the new ‘Proposals’ channel on Discord, simply be displayed as a noticeboard so that anybody can volunteer their skills to help on specific topics. Admins will facilitate showcasing your idea to the community, but cannot guarantee anyone will volunteer to shape its form or build it upfront. \n\nAlongside this, we will try to keep up with active proposals and offer feedback on your submissions.  \n\nWe will also post updates in the ‘Announcements’ channel in Discord and move onto publishing more material on our Medium as we move forward in development. \n\nEarly community members believe this approach will further increase the invaluable collaborative spirit witnessed until now. Due to the permissionless and autonomous nature of TRIB, anybody is still free to work on their plans independently outside of the community, and just release products using TRIB without saying a word.\n\nThank you very much, we look forward to the amazing developments coming for Contribute.\n",
+	"FAQ_Number" : "0033",
+	"FAQ_SourceURLS" : [ "https://t.me/tribtoken/39196" ],
+	"FAQ_authors" : [ "Alkesander" ],
+	"FAQ_flags" : [],
+	"FAQ_tags" : [ "HELP" ],
+	"Full_Question" : "How do I contribute my time / ideas / expertise to ConTRIBute?",
+	"Private_Comment" : "",
+	"Publish_Status" : "DRAFT",
+	"Reference_Name" : "how_do_I_help",
+	"Short_Question" : "How do I contribute to TRIB?"
 }
 ]
