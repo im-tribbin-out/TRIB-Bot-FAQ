@@ -427,5 +427,18 @@
 	"Publish_Status" : "DRAFT",
 	"Reference_Name" : "how_do_I_help",
 	"Short_Question" : "How do I contribute to TRIB?"
+},
+{
+	"Answer" : "There is very little liquidity in UniSwap and the 10% tax would be a hindrance for this attack. Even if DEX/CEX liquidity increased by many orders of magnitude it would not matter:  $TRIB does not have a secondary token which burns itself. $MUSD is the only token for the curve. There would be no way to pump the price by buying a secondary token which burns $TRIB. ",
+	"FAQ_Number" : "0034",
+	"FAQ_SourceURLS" : [],
+	"FAQ_authors" : [ "Smathson" ],
+	"FAQ_flags" : [],
+	"FAQ_tags" : [ "HACK" ],
+	"Full_Question" : "In late September 2020, a new DeFi contract launched by the famous Andre Cronje gained huge popularity and investment in space of hours. Then, a clever person used the contract's own tokenomics against itself to nearly drain the contract of funds by executing just a few carefully-crafted transactions. Details of the ploy (which was not a smart-contract bug) can be reviewed here: https://twitter.com/bkiepuszewski/status/1310901151311835136\n\nIs TRIB vulnerable to any similar sort of manipulation?",
+	"Private_Comment" : "",
+	"Publish_Status" : "DRAFT",
+	"Reference_Name" : "vulnerable_to_flashloan_manipulation",
+	"Short_Question" : "Is TRIB vulnerable to flashloan manipulation?"
 }
 ]
